@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">First aid</string>
+    <string name="eigen_veiligheid">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
