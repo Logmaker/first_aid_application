@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B7CEEC"
+    android:keepScreenOn="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/tvVerwijderJas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/positioneerReanimatie"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/handenplusplaats" />
+
+        <TextView
+            android:id="@+id/tvHoudingReanimatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/handenReanimatie"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/hartmassagehandplaatsen" />
+
+
+        <TextView
+            android:id="@+id/tvRitmeAantal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/uitvoerReanimatie"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dubbel_hartmassage" />
+
+        <TextView
+            android:id="@+id/tvBeademen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uitleggeluidsbestandReanimatie"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808" />
+
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tekstKnopRead_enBeadem"
+            android:id="@+id/textView"
+            style="@style/TextView_sjabloom"/>
+
+        <Button
+            android:id="@+id/btRitmeReanimatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CustomStyleButton"
+            android:text="@string/knopRead_en_Beadem"
+            android:onClick="knopstartReanimatie_en_beademings_Loop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tekstGeluidAan"
+            android:id="@+id/textView2"
+            style="@style/TextView_sjabloom"/>
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+        <Button
+    android:id="@+id/btStartFlowReanimatie"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/CustomStyleButton"
+    android:text="@string/knopGeluidAan"
+    android:onClick="knopStartFlowReanimatie"
+            android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btStopFlowReanimatie"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        style="@style/CustomStyleButton"
+        android:text="@string/knopGeluidUit"
+        android:onClick="knopStopFlowReanimatie"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tekstnaarbreathing"
+            android:id="@+id/textView3"
+            style="@style/TextView_sjabloom"/>
+
+        <Button
+            android:id="@+id/btTerugNaarBreating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/knopMeetHartslag"
+            style="@style/CustomStyleButton"
+            android:onClick="knopTerugNaarBreating"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

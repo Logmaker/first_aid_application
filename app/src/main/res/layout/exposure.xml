@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B7CEEC"
+    android:keepScreenOn="true"
+    >
+
+    <LinearLayout
+        style="@style/LinearLayout_format"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+
+        <TextView
+            android:id="@+id/tvBewustzijnNiveau"
+            style="@style/TextView_sjabloom"
+            android:text="@string/Exposure"/>
+
+
+
+
+
+
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/repeat_ABCD"
+            style="@style/CustomStyleButton"
+            android:onClick="knopABCD"/>
+
+        <TextView
+            android:id="@+id/tvDisabilityAmbiInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tekst_menu"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            style="@style/TextView_sjabloom"/>
+
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu"
+            style="@style/CustomStyleButton"
+            android:onClick="knopMenu"/>
+
+    </LinearLayout>
+
+</ScrollView>

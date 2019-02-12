@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B7CEEC"
+    android:keepScreenOn="true"
+
+    >
+
+    <LinearLayout
+        style="@style/LinearLayout_format"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:weightSum="10">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/text"
+        style="@style/TextView_sjabloom"/>
+
+
+<ImageButton
+android:id="@+id/knop_pijl_rechts"
+android:onClick="knopVolgende"
+android:src="@drawable/pijl_rechts"
+style="@style/knop_rechts" />
+
+    </LinearLayout>
+
+</ScrollView>
+

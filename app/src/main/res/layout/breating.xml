@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B7CEEC"
+    android:weightSum="25"
+    android:keepScreenOn="true">
+
+
+    <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_weight="24">
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/klv"
+                android:id="@+id/tvAdemhaling"
+                style="@style/TextView_sjabloom"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/kijken_luisten_voelen" />
+
+            <TextView
+                style="@style/TextView_sjabloom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/uitleg_teller"
+                android:id="@+id/tvAdemhaling_teller_uitleg" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/knop10sec"
+        android:id="@+id/knop10seconden"
+        style="@style/CustomStyleButton"
+        android:onClick="knop10seconden"/>
+    <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/progressBar10sec" />
+
+        </LinearLayout>
+            <TextView
+                style="@style/TextView_sjabloom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/uitleg_Invoer"
+                android:id="@+id/tvUitlegInvoer"
+                android:visibility="invisible" />
+
+
+            <TextView
+                style="@style/TextView_sjabloom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/knop10sec"
+                android:id="@+id/tvSecondenTeGaan"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+
+
+                <Button
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/knop30sec"
+                    android:id="@+id/knop30seconden"
+                    style="@style/CustomStyleButton"
+                    android:onClick="knop30seconden"
+                    android:visibility="invisible" />
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/progressBar30sec"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+            <!--       <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal"
+                       android:weightSum="1">
+
+
+
+
+                       <Button
+                           android:layout_width="210dp"
+                           android:layout_height="wrap_content"
+                           android:text="@string/knopOpnieuw"
+                           android:id="@+id/knopOpnieuw"
+                           style="@style/CustomStyleButton"
+                           android:onClick="knopOpnieuw"
+                           android:visibility="invisible" />
+                       <Button
+
+                       android:layout_width="210dp"
+                       android:layout_height="wrap_content"
+                       android:text="@string/knopActie"
+                       android:id="@+id/knopActie"
+                       style="@style/CustomStyleButton"
+                       android:onClick="knopActie"
+                       android:visibility="invisible" />
+
+                   </LinearLayout>            -->
+
+
+
+
+               </LinearLayout>
+               </ScrollView>
+
+
+
+       </LinearLayout>

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="telefoonnummer">"tel:112"</string>
+    <string name="app_name">Eerste hulp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_moeder_class"></string>
+    <!-- Paman -->
+    <string name="label_eigen_veiligheid">Eerste hulp</string>
+    <string name="eigen_veiligheid">
+<![CDATA[Eigen veiligheid eerst!
+    \n\n►Neem de situatie goed in u op.
+    \n\n►Is het veilig om hulp te verlenen?
+    \nZo niet houdt afstand en wacht op de brandweer."
+    \n\n ►Druk op de pijl om verder te gaan.]]>
+    </string>
+    <string name="label_andermans_veiligheid">Andermans veiligheid. </string>
+    <string name="andermans_veiligheid">
+<![CDATA[►Waarschuw omstanders,
+    \nmaak ze alert op de gevaarlijke situatie.
+    \n\n►Voorkom dat er meer slachtoffers vallen.
+    \n\n►Druk op de pijl om verder te gaan.]]>
+    </string>
+    <string name="label_markeren">Markeer gevaar</string>
+    <string name="markeren">
+<![CDATA[►Verwijder of markeer gevaarlijke elementen.
+    \n\n►Vraag omstanders om te helpen!
+    \n\n►Zet bv: de weg af bij een ongeluk.
+    \n\n►Druk op de pijl om verder te gaan.]]>
+    </string>
+    <string name="label_alarmeren">Alarmeren</string>
+    <string name="alarmeren">
+<![CDATA[Bel of laat een omstander Alarmnummer 112 bellen.
+    \n\nGeef door...
+    \n\n►Wat er is gebeurd..
+    \n►Waar (adres)..
+    \n►Hoeveel slachtoffers u ziet..
+    \n\nDruk op afbeelding voor...]]>
+    </string>
+    <string name="waar_ben_ik">vind adres</string>
+    <string name="bel_112">bel 112</string>
+    <string name="label_noodtranport">Nood transport</string>
+    <string name="noodtransport"><![CDATA[ ►Indien mogelijk verplaats slachtoffer uit de gevarenzone.
+    \n\n ►Vraag omstander om te helpen!
+    \n\n ►Denk om jullie eigen veiligheid.
+    \n\n ►Neem geen risico.
+    \n\n ►Is het te gevaarlijk: Houdt afstand en wacht tot de brandweer er is.]]></string>
+
+    <!-- GPS / Alarmnummer bellen (alarmeren class) -->
+
+    <string name="title_activity_lokatie">Lokatie</string>
+    <string name="title_activity_bellen">Bel</string>
+    <string name="coordinaten">coordinaten</string>
+    <string name="adres">Adres</string>
+    <string name="breedtegraad">breedtegraad: </string>
+    <string name="lengtegraad">lengtegraad: </string>
+    <string name="adresOnbekend">Kan het adres niet vinden. Controleer de internet verbinding.</string>
+    <string name="terug">Terug</string>
+    <string name="alarmnummer">tel:112</string>
+    <string name="gps_uit">GPS staat uit, Zet GPS aan.</string>
+    <string name="gps_aan">GPS niet te vinden.</string>
+
+    <!-- dialog voor nekcontrollen -->
+    <string name="yes">ja</string>
+    <string name="no">nee</string>
+    <string name="nektitel">nek verwonding</string>
+    <string name="wel_of_geen_trauma">Is het slachtoffer gevallen, of ziet u ernstige verwondingen?</string>
+    <string name="nek">
+<![CDATA[Is het slachtoffer betrokken bij een ongeval of hard gevallen, dan bestaat er kans op nekletsel. Let op...
+    \n\n»Staat het hoofd in een onnatuurlijke stand?
+    \n»Slachtoffer klaagt over pijn in of rond zijn nek?
+    \n»Schade in de omgeving. bv Slachtoffer zit in een zwaar beschadigde auto.
+    \n\n►Verplaats het slachtoffer zo min mogelijk.
+    \n\n►Stabiliseer de nek met uw handen, zie afbeelding.
+    \n\nVraag hulp zodat u door kan gaan met het onderzoek. Druk op de pijl om verder te gaan.]]>
+    </string>
+    <string name="terugknop">Terug knop is uitgeschakeld. Bevestig pop up.</string>
+
+    <!-- controleer of slachtoffer bij kennis is -->
+
+    <string name="controleer_of_slachtoffer_bij_kennis_is">Eerste hulp</string>
+    <string name="alert">Bij bewustzijn</string>
+    <string name="bewustloos">Bewustloos</string>
+    <string name="bij_kennis">Slachtoffer is ......?</string>
+    <string name="title_activity_benauwt">Benauwt</string>
+    <string name="title_activity_airway">Airway Luchtweg</string>
+    <string name="title_activity_nek">Nek</string>
+
+    <!-- benauwd -->
+
+    <string name="benauwd1">Controleer of de luchtweg vrij is, zodat het slachtoffer kan ademen.</string>
+    <string name="benauwd">
+<![CDATA[Bij een verslikking zit er iets in de luchtweg wat er uit moet.
+
+     \n\nVertel het slachtoffer wat je gaat doen.
+     \n\n   ►Ga achter hem staan.
+     \n   ►Duw zijn hoofd iets naar voren.
+      \n   ►Zoals op bovenstaande foto.
+     \n   ►Sla 5 keer krachtig tussen zijn schouderbladen.
+     \n\n   ►Schiet het niet los, herhaal dan het bovenstaande nog 3 keer.
+
+     \n\nHelpt dit niet, probeer dan het volgende.
+     \n\n   ►Ga achter het slachtoffer staan zoals op onderstaande afbeelding,
+     \n   ►Plaats uw rechter vuist onder zijn middenrif.
+     \n   ►Leg je linkerhand op uw rechter vuist.
+     \n   ►Zet je schrap.
+     \n   ►Trek krachtig uw vuist naar achteren.
+     \n   ►Vertel aan het slachtoffer wat je gaat doen.]]>
+    </string>
+    <string name="benauwd_baby">
+<![CDATA[Bij een klein kind of baby.
+    \n\n  ►Hou het kind op zijn kop, met het hoofd naar beneden..
+    \n   ►Sla niet te hard!!
+    \n   ►zie foto..]]>
+    </string>
+
+    <!-- airway bewustloos -->
+    <string name="airway">
+<![CDATA[Bij een bewustloos slachtoffer... Controleer of de luchtweg vrij is.
+    \n\n►Open de mond en verwijder mogelijk braaksel, bloed, of slijm.
+
+     \n\n►Hieronder 2 manieren om de mond open te krijgen.]]>
+    </string>
+    <string name="mond">►Controleer of de tong niet is ingeslikt.</string>
+    <string name="title_activity_breating">Breating / Ademhaling</string>
+
+    <!-- Breating bewustloos -->
+    <string name="klv">
+<![CDATA[Draai een bewustloos slachtoffer op zijn rug.
+    \n\nKijken, Luisteren, Voelen:
+    \n   ►Kijk of zijn borst omhoog komt.
+    \n   ►Luister naar ademhaling.
+    \n   ►Voel (met je gezicht) of er wordt uitgeademd.]]>
+    </string>
+    <string name="uitleg_teller">
+<![CDATA[►Druk op onderstaande knop om 15 seconden lang de ademhaling te tellen.
+\n\n►Tel het aantal ademhalingen tussen de twee piep geluiden. ]]>
+    </string>
+    <string name="knop10sec">Start 15 seconden</string>
+    <string name="knop30sec">Start 30 seconden</string>
+    <string name="title_activity_breating_bij_bewustzijn">Ademhaling bij bewustzijn</string>
+    <string name="secondenTeGaan">seconden te gaan: </string>
+
+    <string name="knop_Bevestig_aantal_ademhalingen">Bevestig aantal ademhalingen</string>
+    <string name="uitleg_Invoer">Voer aantal ademhalingen in. </string>
+    <string name="hint_invoer">aantal:</string>
+    <string name="aantal_ademhalingen">Aantal ademhalingen per minuut: </string>
+    <string name="leeftijd_ademhaling">
+<![CDATA[
+    ►Baby: 30-60 ademhalingen per minuut
+    \n►Peuter (1-2 jaar): 24-40 ademhalingen per minuut
+    \n►Kleuter (3-5 jaar): 22-34 ademhalingen per minuut
+    \n►Kind (6-12 jaar): 18-30 ademhalingen per minuut
+    \n►Puber (13-17 jaar): 12-16 ademhalingen per minuut
+    \n►Volwassen: 12-18 ademhalingen per minuut
+     ]]>
+    </string>
+    <string name="AantalAdemhalingenGeteltDialogTitel">Aantal ademhalingen geteld tussen de twee piepjes?</string>
+    <string name="aantalPerMinuut"><![CDATA[Er zijn %d ademhalingen per minuut gemeten.\n\n]]></string>
+    <string name="baby">Baby</string>
+    <string name="peuter">Peuter(1-2 jaar)</string>
+    <string name="kleuter">Kleuter (3-5 jaar)</string>
+    <string name="kind">Kind (6-12 jaar)</string>
+    <string name="puber">Puber (13-17 jaar)</string>
+    <string name="volwassen">Volwassen </string>
+    <string name="knop_leeftijd_bevestig">Bevestig leeftijd</string>
+
+    <!-- dialog met radiobuttons om de leeftijd te bepalen. -->
+    <string name="Kies_Leeftijd">Selecteer de leeftijd van het slachtoffer.</string>
+
+    <!-- keuzen gebaseerd op leeftijd en het aantal ademhalingen. -->
+    <string name="baby_gezond"><![CDATA[Bij een baby: is een veiligen ademhaling tussen de 30 en 60.]]></string>
+    <string name="peuter_gezond"><![CDATA[Bij een peuter: is een veiligen ademhaling tussen de 24 en 40.]]></string>
+    <string name="kleuter_gezond"><![CDATA[Bij een kleuter: is een veiligen ademhaling tussen de 22 en 34.]]></string>
+    <string name="kind_gezond"><![CDATA[Bij een kind: is een veiligen ademhaling tussen de 18 en 30.]]></string>
+    <string name="puber_gezond"><![CDATA[Bij een puber: is een normalen ademhaling tussen de 12 en 16.]]></string>
+    <string name="volwassen_gezond"><![CDATA[Bij volwassen: is een normalen ademhaling tussen de 12 en 18.]]></string>
+    <string name="knopHartslag">Hartslag</string>
+    <string name="advies_zwak"><![CDATA[\n\n%d ademhalingen wijst op een zwake ademhaling. Advies is om de hartslag te meten.  \n\nOf tel opnieuw.]]></string>
+    <string name="knopReanimatie">Reanimatie</string>
+    <string name="advies_cpr"><![CDATA[\n\n%d ademhaling wijst op hart falen. Advies is om te gaan reanimeren.\n\nOf tel opnieuw.]]></string>
+    <string name="knopVolgende">Volgende</string>
+    <string name="advies_gezond"><![CDATA[\n\n%d ademhalingen per minuut wijst op een gezonde ademhaling. Advies is om op Volgende te drukken. \n\nOf tel opnieuw.]]></string>
+    <string name="advies_hoog">
+<![CDATA[\n\n%d per minuut wijst op een zeer hoge ademhaling. Het is zeer onwaarschijnlijk dat een bewustloos slachtoffer zo snel ademt.
+    Advies is om nogmaals te tellen. \n\n Raakte het slachtoffer bewustloos doordat hij te snel ademde (Hyperventilatie). Dan zal hij waarschijnlijk snel herstellen.
+    ]]>
+    </string>
+    <string name="baby_hoog"><![CDATA[Bij een baby: een ademhaling hoger dan  60 kan wijzen op hyperventilatie]]></string>
+    <string name="peuter_hoog"><![CDATA[Bij een peuter: een ademhaling hoger dan 42 kan wijzen op hyperventilatie]]></string>
+    <string name="kleuter_hoog"><![CDATA[Bij een kleuter: een ademhaling hoger dan 36 kan wijzen op hyperventilatie]]></string>
+    <string name="kind_hoog"><![CDATA[Bij een kind: een ademhaling hoger dan 30 kan wijzen op hyperventilatie]]></string>
+    <string name="puber_hoog"><![CDATA[Bij een puber: een ademhaling hoger dan 24 kan wijzen op hyperventilatie]]></string>
+    <string name="volwassen_hoog"><![CDATA[Bij een volwassenen: een ademhaling hoger dan 24 kan wijzen op hyperventilatie]]></string>
+
+    <!-- laatste dialoog, opnieuw of advies volgen. -->
+    <string name="knopOpnieuw">Opnieuw 30 seconden</string>
+    <string name="knopAdvies">Advies</string>
+    <string name="knopBevestig">Bevestig</string>
+    <string name="uitlegDialog"><![CDATA[\n\n Druk op de advies knop of tel opnieuw (30 seconden).]]></string>
+
+    <!-- Reanimatie -->
+    <string name="knopRead_en_Beadem">Start Reanimatie + beademen loop</string>
+    <string name="knopGeluidAan">Start reanimatie ritme</string>
+    <string name="knopGeluidUit">Stop reanimatie ritme</string>
+    <string name="knopMeetHartslag">Meet hartslag:</string>
+    <string name="tekstKnopRead_enBeadem">\nKnop voor 3 keer een ritme van 30 keer reanimatie. Gevolgd door 8 seconden pauze voor 2 keer te beademen. </string>
+    <string name="tekstGeluidAan">\nknop om reanimatie ritme te starten. </string>
+    <string name="tekstnaarbreathing">\nknop om de ademhaling opnieuw te meten.</string>
+    <string name="positioneerReanimatie">
+<![CDATA[►Lees eerst alle instructies hieronder voordat uw overgaat op handelen.\n\n
+                                                  ►Indien mogelijk ontbloot het bovenlijf.\n
+                                                  ►Ga op je knieen naast het slachoffer zitten.
+                                                  ]]>
+    </string>
+    <string name="handenReanimatie">
+<![CDATA[►Kruis vingers in elkaar(zoals op de afbeelding).\n
+         ►Plaats je handen op het midden van de borst, boven het middenrif.
+                                                  ]]>
+    </string>
+    <string name="uitvoerReanimatie">
+<![CDATA[»Druk op de knop: "Start Reanimatie + Beademen".\n
+                                                  ►Hou je ellebogen gestrekt, druk vanuit je bovenlichaam.\n
+                                                  ►Druk de borst 6 cm in.\n
+                                                  ►Druk op het ritme.]]>
+    </string>
+    <string name="uitleggeluidsbestandReanimatie">
+<![CDATA[►Na 30 reanimaties, stopt het geluid voor 8 seconden. Beademen het slachtoffer in die tijd 2 keer.\n\n
+                                                  ►Open de mond door de kin op te tillen.\n
+                                                  ►Knijp met je andere hand zijn neus dicht.\n
+                                                  ►Mond op mond en adem krachtig uit. Kijk naar de borst van het slachtoffer, als die iets omhoog komt is het goed.\n
+                                                  ►doe dit 2 keer, na 8 seconden start het reanimatie ritme automatische opnieuw.
+                                                  \n\nLukt het niet om met bij te blijven. druk dan op de knop: Start Reanimatie ritme.
+                                                   Dan hoor je een non stop reanimatie ritme van 100 keer per minuut.]]>
+    </string>
+    <string name="dialoogLoopReanimatie">Reanmatie 30 keer.</string>
+    <string name="dialoogLoopBeademen">2 keer beademen.</string>
+    <string name="dialoogReanimatieTitel">Controleer de ademhaling of ga verder met reanimeren..</string>
+    <string name="herhaalReanimatie">Verder Reanimeren.</string>
+    <string name="controleerAdemhaling">Controleer ademhaling.</string>
+    <string name="InvoerDialoogLeeg">Voer een getal in.</string>
+    <string name="InvoerDialoogOngeldigeWaarden">Getal is ongeldig, voer een kleiner getal in.</string>
+
+    <!-- Hartslag -->
+    <string name="zoekHartslagKeel"><![CDATA[De beste plek om de hartslag te meten is op de keel, zie afbeelding.
+     ]]></string>
+    <string name="zoekHartslagPols"><![CDATA[of op de pols, zie afbeelding ]]></string>
+    <string name="UitlegHartslagTeller"><![CDATA[Druk op de knop om 15 seconden de hartslag te meten. Tel tussen de twee piep geluiden.
+     ]]></string>
+    <string name="knopHartslagTeller">Start 15 seconden</string>
+    <string name="hoeveelHartslagen">►Aantal hartslagen geteld tussen de piepjes:
+        </string>
+    <string name="adviesZoekHetUitVolwassen">Volgende.</string>
+    <string name="zoekHetZelfUitVolwassen">
+<![CDATA[Vanaf 10 jaar: Is een veilige hartslag tussen de 60 en 100 slagen per minuut.\n\n
+    U telde %d hartslagen per minuut.\n\n
+    Er is een zwake ademhaling, en het slachtoffer is bewustloos. \n\n Als de hartritme onregelmatig of chaotische is knop: REANIMATIE. \n\n
+    Als de hartslag normaal is Druk: Volgende.
+
+    \n\n of tel opnieuw.]]>
+    </string>
+    <string name="advies_reanimeren_Volwassen">Met de zwakke ademhaling en een lage hartslag van %d per minuut, is het advies: REANIMATIE
+        </string>
+
+    <!-- Hartslag baby -->
+    <string name="zoekHartslag_baby"><![CDATA[Bij een baby of een klein kind: \n►Leg het armpje naar boven.
+    \n►Voel met twee vingers aan de binnenkant van de bovenarm, zoals op de afbeelding.]]></string>
+    <string name="andere_manier_hartslag">
+<![CDATA[
+      Voel met je vingers niet met je duim.]]>
+    </string>
+    <string name="adviesCPRbabyHartslag">Reanimatie</string>
+    <string name="adviesZoekHetUit">Volgende.</string>
+    <string name="adviesOpniew">Opnieuw</string>
+    <string name="zoek_het_zelf_uit_baby">
+
+<![CDATA[Er is een hartslag gemeten van: %d per minuut. \n\n
+   Bij een baby een veilige hartslag licht tussen de: slagen per minuut.\n\n
+   » Eerste levensmaand 70-190\n
+   » Tussen 1 en 11 maanden 80-160\n
+   » Tussen 1 en 2 jaar  80-130\n
+   » Tussen 3 en 4 jarigen  80-120\n
+   » Tussen 5 en 6 jaar 75-115\n
+   » Tussen 7 en 9 jaar 70-110\n
+   » Vanaf 10 jaar 60-100\n\n
+
+   Er is een zwakke ademhaling, en het slachtoffer is bewustloos. \n\n Als de hartslag in combinatie met bovenstaande leeftijds indeling te laag is: ►START REANIMATIE
+ \n\n
+ Is de hartslag onregematig of chaotische is knop: REANIMATIE.\n\n
+ Heeft de hartslag en normalen waarde, knop: Volgende.
+
+    \n\n of meet opnieuw de hartslag.
+]]>
+    </string>
+    <string name="advies_reanimeren_baby">Met de zwakke ademhaling en een hartslag van %d per minuut het advies is: ►REANIMEREN</string>
+
+    <!-- Reanimatie baby -->
+
+    <string name="tekstKnopRead_enBeadem_baby">\nKnop voor 4 keer een loop van loop: van 15 Reanimaties gevolgd door 8 seconden tijd voor 2 beademingen.
+         </string>
+    <string name="positioneerReanimatie_baby">
+<![CDATA[►Begin met het geven van 5 beademingen.
+        \n►Sluit uw mond over de mond en neus van de baby, blaas tot de borst iets opkomt.\n\n]]></string>
+    <string name="instructie_baby">►►Lees eerst onderstaande instructies goed door, voordat u overgaat op actie.
+        </string>
+    <string name="handenReanimatie_baby">
+<![CDATA[►Als je alleen bent plaats dan je hand zoals op de bovenstaande foto.
+\n\n►Met meerderen, kan één persoon reanimeren terwijl de andere de beademing doet, zoals op onderstaande foto.
+    \n►Reanimatie voor baby is 15 om 2.
+    ]]>
+    </string>
+    <string name="uitvoerReanimatie_baby">
+<![CDATA[►Druk op de knop: Start Reanimeren + Beademen.\n
+►Druk de borst ongeveer voor 4 cm in. 15 keer net onder de tepellijn.\n
+►Druk op het ritme van het geluid.]]>
+    </string>
+    <string name="uitleggeluidsbestandReanimatie_baby">
+<![CDATA[►Na 15 keer stopt het geluid voor 8 seconden, beadem de baby in deze 8 seconden 2 keer.
+\n\n►Open de mond door de kin op te tillen.
+\n►Sluit uw mond over de mond en neus van de baby, blaas tot de borst iets opkomt.
+\n\n►Na 8 seconden start het reanimatie ritme automatische.
+\n\n►Lukt het niet om het tempo bij te houden, druk dan op de knop ►Start Reanimatie ritme.
+\nDan hoort u een non-stop reanimatie loop met een ritme van 100 keer per minuut. Tel dan zelf hardop tot 15 en beadem daarna. ]]> </string>
+    <string name="dialoogLoopReanimatie_baby">Reanimatie 15 keer.</string>
+    <string name="dialoogLoopBeademen_baby">2 keer Beademen.</string>
+    <string name="dialoogReanimatieTitel_baby">Controleer de ademhaling of ga verder met reanimeren.</string>
+    <string name="herhaalReanimatie_baby">Verder reanimeren.</string>
+    <string name="controleerAdemhaling_baby">Controleer ademhaling.</string>
+
+    <!-- Breathing wakker -->
+    <string name="adem_bewust">
+<![CDATA[Nu de luchtweg vrij is controleren we de ademhaling.
+
+    \n\n   ►Als het slachtoffer erg snel ademt dan is de kans groot op hyperventilatie.
+    \nHyperventilatie komt voor in paniek situaties.
+    ]]>
+    </string>
+    <string name="Knophyperventilatie">Hyperventilatie</string>
+    <string name="klaplong">
+<![CDATA[►Verraad de lichaamshouding benauwdheid aan één kant van het lichaam. Dan heeft het slachtoffer mogelijk een klaplong.
+
+    \n\nDe long aan de pijnlijke kant werkt dan niet meer.
+
+    \n\n►Zet het slachtoffer in een halfzittende houding. (bv Benen gestrekt op de grond, rug tegen de muur.)]]>
+    </string>
+
+    <string name="long_raakt_bewustloos">
+<![CDATA[\n\n►Raakt het slachtoffer bewustloos, leg hem dan in de stabiele zijligging. Met de gewonde kant op de grond. Zodat zijn gezonde long optimaal kan blijven werken. ]]>
+    </string>
+    <string name="stabiele_zijligging">Stabiele zijligging</string>
+    <string name="title_activity_circulatie">Circulatie</string>
+    <string name="title_activity_hyperventilatie">Hyperventilatie</string>
+    <string name="title_activity_stabiele_zijligging">Stabiele zijligging</string>
+
+    <!-- Circulatie -->
+    <string name="uitwendige_bloeding">
+<![CDATA[
+    Onderzoek het lichaam op bloedingen, onderstaande 4 oorzaken kunnen dodelijk zijn.
+   \n\n ►►Slagaderlijke bloedingen.
+    \n ►►Interne bloedingen.
+   \n ►►Brandwonden.
+   \n ►►Slangenbeet.
+
+    \n\n►Slagaderlijke bloeding: \nAls u een heftige bloeding ziet waarbij het bloed stootsgewijs uit de wond komt, druk dan op knop: Hevige bloeding.
+    \nKleine bloedingen zijn niet gevaarlijk.
+    ]]>
+    </string>
+    <string name="interne_bloeding">
+<![CDATA[Interne bloedingen:
+    \n►Druk hard op een vingernagel zodat die wit kleurt.
+    \n►Kijk of de nagel binnen 3 seconden terug kleurt. Heeft het slachtoffer koude handen druk dan op het voorhoofd, en contoleer of de oorspronkelijke kleur weer snel hersteld.
+    \n►Kleurt de nagel of het voorhoofd niet snel terug, dan is het slachtoffer waarschijnlijk in shock.
+    \n►Door een grote interne bloeding is weinig bloed meer in de huid.
+
+    \n►LET OP: slachtoffer verkeert in levensgevaar. Ook slachtoffers die alert zijn en gewoon op je vragen kunnen antwoorden kunnen van binnen doodbloeden.
+    ]]>
+    </string>
+    <string name="interne_bloeding_actie">
+<![CDATA[►Leg schachtoffer in de shockhouding, met de benen omhoog.
+    \n►Zodat het bloed uit de benen naar de borst en hersenen kan stromen. (zoals op de afbeelding).
+    \n►blijf ABCD controlen totdat de ambulance het overneemt.
+    \nGeef door aan de ambulance verpleger: GEEN CAPILLAIRE REFILL]]>
+    </string>
+    <string name="knopBloed">Hevige bloeding</string>
+    <string name="knopSlang">Slangen beet</string>
+    <string name="naarSlangen">Is het slachtoffer gebeten door een slang? Druk op knop: Slangen beet. </string>
+    <string name="tvbrandwonden">Ziet u brandwonden of verbranden kleding: ►Knop: Brandwonden</string>
+    <!-- Hyperventilatie -->
+    <string name="hyperventilatie">
+<![CDATA[Is de ademfrequentie hoger dan 1 ademhaling in de 2 seconden dan is het slachtoffer waarschijnlijk aan het hyperventileren.
+    \n\nHet lichaam ademt meer CO2 uit, dan het inademt.
+
+    \nHet lichaam heeft CO2 nodig om de ademhaling te controleren.
+    \n\n►Stel het slachtoffer gerust. Vraag hem even zijn adem intehouden. Tel langzaam tot 10 en laat het slachtoffer bij iedere tel inademen.
+    \n\n►Helpt dit niet, laat dan het slachtoffer zijn handen voor zijn mond houden, waardoor hij dezelfde lucht in gaat ademen die hij zojuist uitademde. Hierdoor het CO2 gehate in zijn bloed zal stijgen.
+    \n\n►Indien mogenlijk maak vna jij eigen handen een kommetje, wat je voor zijn mond houdt..
+    \n\n►Verliest het slachtoffer zijn bewustzijn, leg hem dan plat op de grond. Eventueel met zijn benen iets van de grond.
+    \n►Blijf ABCD controlen. Waarschijnlijk zal de ademfrequentie snel verbeteren..
+    \n\n►Stopt het slachtoffer met ademen, of verslechterd de situatie druk dan op onderstaande knop.]]>
+    </string>
+    <string name="knopVerslechtering">Situatie verslechterd:</string>
+
+    <!-- <string name=""><![CDATA[]]></string> -->
+    <!-- Disability -->
+    <string name="disability">
+<![CDATA[Probeer het bewustzijn niveau te bepalen.
+    \n\nEr zijn 4 levels:
+    \n►Alert: Slachtoffer is bij bewutzijn en geeft heldere antwoorden op uw vragen.
+    \n►Verbal: Slachtoffer is bij bewustzijn, maar maakt een verwarde indruk.
+    \n►Pain: Slachtoffer is bij bewustijn maar reageerd op de pijnprikkel. (geef alleen een pijnprikkel als u weet hoe dit moet).
+    \n►Unresponsive: Slachtoffer is bewustloos en reageerd niet op de pijnprikkel, in dit geval is het slachtoffer in levensgevaar hij reageerd niet meer op pijn.
+    ]]>
+    </string>
+    <string name="stabiele_zijlegging_d"><![CDATA[Is het slachtoffer bewustloos en heeft hij geen nekklachten leg hem dan in de stabiele zijligging.]]></string>
+    <string name="title_activity_disability">Disability</string>
+    <string name="knopStabieleZijligging">Stabiele zijligging</string>
+    <string name="title_activity_exposure">Exposure</string>
+    <string name="title_activity_hevige_bloeding">Hevige_bloeding</string>
+    <!-- Exposure -->
+    <string name="Exposure">
+<![CDATA[Haal het slachtoffer uit de elementen, uit de wind, zon, koude grond, regen, enz. Geef natte slachtoffers drogen kleding of dekens.
+    \n\nVoor verder onderzoek is de afkorting AMPLE handig.
+    \n\n►Allergie:
+    \n    »Bent u allergisch voor iets?
+    \n\n►Medicijnen:
+    \n    »Gebruikt u medicijnen?
+    \n    »Heeft u ze vandaag ook ingenomen?
+    \n\n►Past Medische verleden:
+    \n    »Bent u ziek?
+    \n    »Of bent u pas ziek geweest?
+    \n\n►Last Meal
+    \n    »Wat en waneer heeft u voor het laats gegeten?
+    \n    »Alcohol of drugs gebruikt?
+    \n\n►Events/Environment:
+    \n    »Wat is er voorafgaand aan het ongeval gebeurt?
+    \n    »Waar was het slachtoffer mee bezig voordat hij onwel werd?
+    \n\nDeze informatie kan nuttig zijn voor de ambulancedienst.
+    \n\nHerhaal ABCD totdat de ambulance het van u overneemt.
+    ]]>
+    </string>
+    <string name="repeat_ABCD">Herhaal ABCD</string>
+    <string name="tekst_menu">Voor meer informatie, of snelle links druk op: Menu.</string>
+    <string name="menu">Menu</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_teller">Teller</string>
+    <string name="knopStartTellen">Start</string>
+    <string name="startTellerTekst">Druk op start knop als u klaar bent om te tellen...</string>
+    <string name="tellerTekst">Aantal ademhalingen: </string>
+    <string name="title_activity_dialog_aantal_adem">Dialog_aantal_adem</string>
+    <string name="title_activity_reanimatie">Reanimatie</string>
+    <string name="title_activity_reanimatie_baby">Reanimatie_baby</string>
+    <string name="title_activity_hartslag">Hartslag</string>
+    <string name="terugKnop">Terug knop is uitgeschakeld</string>
+    <string name="title_activity_hartslag_baby">Hartslag_baby</string>
+    <string name="title_activity_slagader">Slagader</string>
+    <string name="title_activity_slagaderfoto">Slagaderfoto</string>
+
+
+    <!--onderkant menu -->
+    <string name="waarBenIk">Waar ben ik?</string>
+    <string name="menu1">Menu</string>
+    <string name="afsluiten">Afsluiten.</string>
+    <string name="bell112">Bel hulpdiensten.</string>
+
+    <!-- Menu activity -->
+    <string-array name="menu1_array">
+        <item>Herhaal ABCD</item>
+        <item>Verslikking</item>
+        <item>Hyperventilatie</item>
+        <item>Reanimatie </item>
+        <item>Reanimatie baby tot 3 jaar</item>
+        <item>Slagaderlijke bloeding</item>
+        <item>Brandwonden</item>
+        <item>Slangen beet</item>
+        <item>Stabiele zijligging</item>
+        <item>Waar ben ik</item>
+        <item>Disclamer</item>
+        <item>Contact</item>
+        <item>Afsluiten</item>
+        <item>Start opnieuw</item>
+
+    </string-array>
+
+    <!-- Contact-->
+    <string name="tvContact"> Voor vertaling van deze applicatie in uw taal of voor verbeteringen / onjuistheden, kunt u contact opnemen via onderstaande tekstveld.
+        </string>
+    <string name="knopStuurEmail">mail verzenden</string>
+    <string name="hintEmail">uw bericht: </string>
+    <string name="onderwerpEmail">onderwerp: </string>
+
+    <!-- disclamer -->
+    <string name="disclamer"><![CDATA[Let op deze applicatie is een stukje gereedschap, een protocol, een hulpmiddel.
+
+			Gebaseerd op jarenlange medische kennis en ervaring..
+			\n\nOmdat iedere situatie anders is...
+			\n\nKan de maker van deze applicatie nooit verantwoordelijk worden gehouden voor foute afloop.
+			\n\nNeemt de maker geen enkele juridische verantwoordelijkheid.
+			\n\nGebruik altijd uw gezonde verstand. Gebruik deze applicatie als een hulpmiddel, niet als de ultime waarheid.]]></string>
+
+    <!--Snakebite -->
+    <string name="label_snake">Slangen beet</string>
+    <string name="snake1"><![CDATA[►Blijf kalm, en uit de buurt van de slang.
+    \n►Hoe minder het slachtoffer beweegt hoe kleiner de kans dat het gif zich door het lichaam verplaatst.
+
+    \n►Leg het slachtoffer op de grond met de beet lager dan  het hart.
+
+    \n►Bel hulpdienst.
+    \n►Verwijder kleding, schoenen, ringen, enc in de buurt van de beet. Dit in verband met zwelling.
+    ]]></string>
+    <string name="snake2">►Markeer de plaats waar de slang heeft gebeten. Na de zwelling is die soms moeilijk terug te vinden.
+        </string>
+    <string name="snake3"><![CDATA[►Leg twee  zwachtels aan één 5 cm boven en één 5 cm onder de wond. Echter nooit met een gewricht er tussen zoals een elleboog  of een knie.
+
+    \n►Heeft u geen zwachtel of verband bij de hand gebruik dan repen van een tshirt of trui.
+
+    \n►De zwachtel moet vrij strak worden aangetrokken, maar niet de bloedbanen afknevelen.
+
+    \n►Het doel van de zwachtel is om de lympen dicht te drukken, slangen gif verplaatst zich door de lympen, niet door het bloed.
+
+    \n►Controlleer regelmatig  hoe strak de zwachtel zit. Komt hij te strak te zitten door de zwelling, maak het dan iets losser.]]></string>
+    <string name="snake4"><![CDATA[
+   \n ►Als de slang dood is neem hem dan mee naar de doktor / ziekenhuis / ambulancen. Dan kan er snel het juiste tegengif worden gevonden
+   \n ►Als je het slachtoffer moet verplaatsen omdat je in een afgelegen gebied bent. Wacht dan eerst 20 tot 30 minuten voor je gaat vertrekt. Dan kan het gif rondom de wond stollen.
+   Verplaats je dan samen op een kalm tempo naar de dichtsbijzijnde plaats waar het slachoffer kan worden opgehaald.
+   \n►Vermijd onnodig contact met de wond.]]></string>
+
+    <string name="brandwond"><![CDATA[
+       ►Eerst water de rest komt later.
+       \n\n►Koel alleen de wond, niet het slachtoffer.
+       \n\n►Koel bij voorkeur met lauw water, niet met ijs.
+       \n\n►Verwijder geen vastgebrande kleding uit de wond.
+       \n\n►Blijf koelen tot de ambulance het over neemt.
+       \n\n►Bij grote brandwonden, pas op dat het slachtoffer niet onderkoelt raakt door het koelwater.
+       \n\n►Bij een brandwonde zo groot als een 2 euro munt minimaal 20 minuten koelen.]]></string>
+    <string name="label_brandwond">Brandwonden</string>
+</resources>

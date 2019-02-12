@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#B7CEEC"
+    android:keepScreenOn="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/benauwd1"
+            style="@style/TextView_sjabloom"
+            android:id="@+id/tvbenauwd1"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/verslikking_kloppen"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            style="@style/TextView_sjabloom"
+            android:id="@+id/tvbenauwd"
+            android:textSize="20dp" />
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/heimlich_greep_verstikking"
+                android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            style="@style/TextView_sjabloom"
+            android:id="@+id/tvbenauwd_baby"
+            android:textSize="20dp" />
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/baby_verslikking"
+                android:layout_gravity="center" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/knop_pijl_rechts"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/pijl_rechts"
+            android:onClick="knopVolgende"
+            android:background="#B7CEEC"/>
+    </LinearLayout>
+</ScrollView>

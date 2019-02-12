@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B7CEEC"
+    android:keepScreenOn="true"
+    >
+
+    <LinearLayout
+        style="@style/LinearLayout_format"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/slagadernegen"
+            android:layout_weight="8"/>
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terug"
+            style="@style/CustomStyleButton"
+            android:onClick="terug"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+</ScrollView>

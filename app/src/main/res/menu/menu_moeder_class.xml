@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_BelAlarmnummer"
+        android:icon="@android:drawable/stat_sys_phone_call"
+        android:title="@string/bell112"/>
+    <item android:id="@+id/menu_WaarBenIk"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="@string/waarBenIk"/>
+    <item android:id="@+id/menu_naarMenu"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/menu"/>
+    <item android:id="@+id/menu_sluitAf"
+        android:icon="@android:drawable/ic_delete"
+        android:title="@string/afsluiten"/>
+
+
+</menu>

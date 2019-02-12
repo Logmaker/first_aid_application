@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:background="#B7CEEC"
+    android:keepScreenOn="true">
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibWaarBenIk"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/telefoonPlaatje"
+        android:layout_toRightOf="@+id/telefoonPlaatje"
+        android:layout_toEndOf="@+id/telefoonPlaatje"
+        android:layout_alignTop="@+id/telefoonPlaatje"
+        android:src="@drawable/waarbenik2"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:onClick="waarBenIk"
+        android:background="#B7CEEC"
+        />
+    <ImageButton
+        android:layout_gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/knop_pijl_rechts"
+        android:onClick="knopVolgende"
+        android:src="@drawable/pijl_rechts"
+        android:background="#B7CEEC"
+        android:layout_below="@+id/tvBell112"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Medium Text"
+    android:id="@+id/text"
+    style="@style/TextView_sjabloom"/>
+>
+
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/telefoon5"
+    android:layout_weight="1"
+    android:padding="5sp"
+    android:id="@+id/telefoonPlaatje"
+    android:layout_below="@+id/text"
+    android:onClick="telefoon"/>
+
+<TextView
+    android:id="@+id/tvBell112"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/bel_112"
+    android:singleLine="true"
+    android:layout_below="@+id/telefoonPlaatje"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    />
+<!--   android:layout_marginLeft="94dp" -->
+
+<TextView
+    android:id="@+id/tvWaarBenIk"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/waar_ben_ik"
+    android:singleLine="true"
+    android:layout_toRightOf="@+id/knop_pijl_rechts"
+    android:layout_toEndOf="@+id/telefoonPlaatje"
+    android:layout_marginLeft="152dp"
+    android:layout_below="@+id/ibWaarBenIk"
+    android:layout_alignLeft="@+id/knop_pijl_rechts"
+    android:layout_alignStart="@+id/knop_pijl_rechts" />
+
+</RelativeLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B7CEEC"
+    android:keepScreenOn="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/tvVerwijderJas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/positioneerReanimatie_baby"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_beademen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instructie_baby"
+            android:id="@+id/textView4"
+            style="@style/TextView_sjabloom"/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_reanimatie_vinger" />
+
+        <TextView
+            android:id="@+id/tvHoudingReanimatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/handenReanimatie_baby"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_reanimatie" />
+
+        <TextView
+            android:id="@+id/tvRitmeAantal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/uitvoerReanimatie_baby"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808" />
+
+
+        <TextView
+            android:id="@+id/tvBeademen_baby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uitleggeluidsbestandReanimatie_baby"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#808" />
+
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tekstKnopRead_enBeadem_baby"
+            android:id="@+id/textView"
+            style="@style/TextView_sjabloom"/>
+
+        <Button
+            android:id="@+id/btRitmeReanimatie_baby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CustomStyleButton"
+            android:text="@string/knopRead_en_Beadem"
+            android:onClick="knopstartReanimatie_en_beademings_Loop_baby"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tekstGeluidAan"
+            android:id="@+id/textView2"
+            style="@style/TextView_sjabloom"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btStartFlowReanimatie_baby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CustomStyleButton"
+                android:text="@string/knopGeluidAan"
+                android:onClick="knopStartFlowReanimatie_baby"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btStopFlowReanimatie_baby"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                style="@style/CustomStyleButton"
+                android:text="@string/knopGeluidUit"
+                android:onClick="knopStopFlowReanimatie_baby"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tekstnaarbreathing"
+            android:id="@+id/textView3"
+            style="@style/TextView_sjabloom"/>
+
+        <Button
+            android:id="@+id/btTerugNaarBreating_baby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/knopMeetHartslag"
+            style="@style/CustomStyleButton"
+            android:onClick="knopTerugNaarBreating_baby"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

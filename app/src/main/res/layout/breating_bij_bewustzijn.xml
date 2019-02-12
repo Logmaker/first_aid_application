@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:background="#B7CEEC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp" >
+
+        <TextView
+            android:id="@+id/tvTekstAdemhaling"
+            android:text="@string/adem_bewust"
+            style="@style/TextView_sjabloom" />
+
+        <Button
+            android:id="@+id/btHyperventilatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Knophyperventilatie"
+            style="@style/CustomStyleButton"
+            android:onClick="knopHyperventilatie"/>
+
+        <TextView
+            android:textColor="#808"
+            android:id="@+id/tvnaarKlaplong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.16"
+            android:text="@string/klaplong"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+        <TextView
+            android:textColor="#808"
+            android:id="@+id/tvnaarStabielezijligging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.16"
+            android:text="@string/long_raakt_bewustloos"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/btStabieleZijliggingBewustAdem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stabiele_zijligging"
+            style="@style/CustomStyleButton"
+            android:onClick="knopStabieleZijligging"/>
+
+        <ImageView
+            android:id="@+id/ibPijlNaarCirulatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pijl_rechts"
+            android:onClick="knopVolgende"/>
+    </LinearLayout>
+
+</ScrollView>

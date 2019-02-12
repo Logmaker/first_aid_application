@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B7CEEC"
+    android:weightSum="20"
+    android:keepScreenOn="true">
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="18"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="25dp"
+        >
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:text="@string/coordinaten"
+            style="@style/TextView_sjabloom"
+            />
+
+        <TextView
+            android:id="@+id/mylatitude"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/breedtegraad"
+            style="@style/TextView_sjabloom"/>
+        />
+
+        <TextView
+            android:id="@+id/mylongitude"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lengtegraad"
+            style="@style/TextView_sjabloom"/>
+        />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:text="@string/adres"
+            style="@style/TextView_sjabloom"/>
+
+        <TextView
+            android:id="@+id/myaddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextView_sjabloom"/>
+
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibLocBelAlarmnummer"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/telefoon5"
+            android:onClick="bel112"
+            android:background="@drawable/custom_button"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/bel_112"
+            style="@style/TextView_sjabloom"/>
+
+
+        </LinearLayout>
+
+</ScrollView>
+        <Button
+            android:id="@+id/btTerug"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/terug"
+            style="@style/CustomStyleButton"
+            android:gravity="center"
+            android:onClick="terug"/>
+    </LinearLayout>
+
+
+

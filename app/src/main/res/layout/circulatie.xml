@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B7CEEC"
+    android:keepScreenOn="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+
+        <TextView
+            android:id="@+id/tvCirculatienaarSlagader"
+            android:text="@string/uitwendige_bloeding"
+            style="@style/TextView_sjabloom" />
+
+
+        <Button
+            android:id="@+id/btCirculatienaarSlagader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/knopBloed"
+            style="@style/CustomStyleButton"
+            android:onClick="knopBloeding"/>
+
+
+        <TextView
+            android:id="@+id/tvCapilaireRefill"
+
+            android:text="@string/interne_bloeding"
+           style="@style/TextView_sjabloom"/>
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/capilairerefillnagelbed" />
+
+
+
+
+        <TextView
+            android:id="@+id/tvShockHouding"
+            style="@style/TextView_sjabloom"
+            android:text="@string/interne_bloeding_actie"
+           />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/antishockhouding" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/naarSlangen"
+            android:id="@+id/textView7"
+            style="@style/TextView_sjabloom"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/knopSlang"
+            android:id="@+id/button"
+            style="@style/CustomStyleButton"
+            android:onClick="slang"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvbrandwonden"
+            android:id="@+id/textView9"
+            style="@style/TextView_sjabloom"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_brandwond"
+            android:id="@+id/button4"
+            style="@style/CustomStyleButton"
+            android:onClick="brandwond"/>
+
+        <ImageButton
+            android:id="@+id/ibnaarDisablity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/pijl_rechts"
+            android:onClick="knopVolgende"
+            android:background="#B7CEEC"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

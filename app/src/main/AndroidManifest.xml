@@ -2,19 +2,140 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aid.first.mb.firstaid" >
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/CustomActionBarTheme" >
         <activity
-            android:name="com.aid.first.mb.firstaid.Personlijke_veiligheid"
-            android:label="@string/app_name" >
+            android:name=".Personlijke_veiligheid"
+            android:label="@string/label_eigen_veiligheid" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".AnderMans_Veiligheid"
+            android:label="@string/label_andermans_veiligheid" />
+        <activity
+            android:name=".Markeren"
+            android:label="@string/label_markeren" />
+        <activity
+            android:name=".Alarmeren"
+            android:label="@string/label_alarmeren" />
+        <activity
+            android:name=".NoodTransport"
+            android:label="@string/label_noodtranport" />
+        <activity
+            android:name=".Lokatie"
+            android:icon="@drawable/waarbenik"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".MoederClass"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".Benauwt"
+            android:label="@string/title_activity_airway" >
+        </activity>
+        <activity
+            android:name=".Airway"
+            android:label="@string/title_activity_airway" >
+        </activity>
+        <activity
+            android:name=".Nek"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".Breating"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_breating"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Breating_bij_bewustzijn"
+            android:label="@string/title_activity_breating" >
+        </activity>
+        <activity
+            android:name=".Circulatie"
+            android:label="Circulation" >
+        </activity>
+        <activity
+            android:name=".Hyperventilatie"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".Stabiele_zijligging"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".Disability"
+            android:label="@string/title_activity_disability" >
+        </activity>
+        <activity
+            android:name=".Exposure"
+            android:label="@string/title_activity_exposure" >
+        </activity>
+        <activity
+            android:name=".Hevige_bloeding"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".Menu1"
+            android:label="@string/title_activity_menu"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".Dialog_aantal_adem"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".Reanimatie"
+            android:label="CPR" >
+        </activity>
+        <activity
+            android:name=".Reanimatie_baby"
+            android:label="CPR_baby" >
+        </activity>
+        <activity
+            android:name=".Hartslag"
+            android:label="Hartslag"  >
+        </activity>
+        <activity
+            android:name=".Hartslag_baby"
+            android:label="Hartslag_baby"  >
+        </activity>
+        <activity
+            android:name=".Slagaderfoto"
+            android:label="@string/title_activity_slagaderfoto"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".Contact"
+            android:label="e-mail"
+             >
+        </activity>
+        <activity
+            android:name=".Disclamer"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".SnakeBite"
+            android:label="@string/label_snake" >
+        </activity>
+        <activity
+            android:name=".Brandwonden"
+            android:label="@string/label_brandwond" >
         </activity>
     </application>
 

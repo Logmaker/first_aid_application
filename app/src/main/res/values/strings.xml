@@ -1,8 +1,520 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="telefoonnummer">"tel:911"</string>
     <string name="app_name">First aid</string>
-    <string name="eigen_veiligheid">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_moeder_class"></string>
+    <!-- Paman -->
+    <string name="label_eigen_veiligheid">Own safety first</string>
+    <string name="eigen_veiligheid">
+<![CDATA[Own safety first!
+    \n\n►Assess the accident.
+    \n\n►Is it safe for yourself? If not "KEEP DISTANCE"
+    \n\n►Press the arrow to continue]]>
+    </string>
+    <string name="label_andermans_veiligheid">Bystanders safety </string>
+    <string name="andermans_veiligheid">
+<![CDATA[►Warn bystanders..
+    \n\n►Get there attention.
+    \n\n ►Make them aware of the dangerous situation
+    \n\n ►Try to avoid more casualties..]]>
+    </string>
+    <string name="label_markeren">Remove or mark danger</string>
+    <string name="markeren">
+<![CDATA[►Mark or eliminate acute hazards.
+    \n\n►Remove or mark danger elements.
+    \n\n►Fore example: Close a road next to an accident..
+    \n\n►Ask bystanders for help!]]>
+    </string>
+    <string name="label_alarmeren">Call for help</string>
+    <string name="alarmeren">
+<![CDATA[Call or ask somebody to call the emergency service.
+    \n\nTell...\n\n►What happened..
+    \n►Where (address)..
+    \n►how many victims you have seen..
+    \n\n Press the image for...]]>
+    </string>
+    <string name="waar_ben_ik">find location</string>
+    <string name="bel_112">call emergency service</string>
+    <string name="label_noodtranport">Safe area</string>
+    <string name="noodtransport">
+<![CDATA[If victim is in a danger zone: Move victim to a safe area.
+    \n\n Ask for help to move victims out the danger zone.
+    \n\n Think about your own safety. Do not take risks.
+    \n\n If it is too dangerous. Keep safe distance, and wait until the fire department arrives!]]>
+    </string>
+
+    <!-- GPS / Alarmnummer bellen (alarmeren class) -->
+
+    <string name="title_activity_lokatie">Location</string>
+    <string name="title_activity_bellen">call</string>
+    <string name="coordinaten">coordinates</string>
+    <string name="adres">Address</string>
+    <string name="breedtegraad">latitude: </string>
+    <string name="lengtegraad">longitude: </string>
+    <string name="adresOnbekend">Can not find address. Check or internet is working?</string>
+
+    <string name="terug">back</string>
+    <string name="alarmnummer">tel:911</string>
+    <string name="gps_uit">Gps Disabled, Turn Gps on</string>
+    <string name="gps_aan">gps enable</string>
+
+    <!-- dialog voor nekcontrollen -->
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="nektitel">neck injuries</string>
+    <string name="wel_of_geen_trauma">Is victim involved in an accident? Or do you see serious injuries</string>
+    <string name="nek">
+<![CDATA[Was the victim involved in an accident? Be aware there is a risk of whiplash.
+    \n\n»Is the head in an unnatural position?
+    \n\n»Or victim complains about pain in or around his neck?
+    \n\n»Damage in the area! e.g: victim is in a heavily damaged car.
+    \n\n►Do not move the victim or as little as possible.
+    \n\n►Stabilize the neck with our hands.
+    \n\n►See picture, ask an bystander to do this..]]>
+    </string>
+    <string name="terugknop">Back button does not work. Read dialog</string>
+
+    <!-- controleer of slachtoffer bij kennis is -->
+
+    <string name="controleer_of_slachtoffer_bij_kennis_is">first aid</string>
+    <string name="alert">Awake</string>
+    <string name="bewustloos">Unconscious</string>
+    <string name="bij_kennis">Victim is......?</string>
+    <string name="title_activity_benauwt">Benauwt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_airway">Airway</string>
+    <string name="title_activity_nek">Nek</string>
+
+    <!-- benauwd -->
+
+    <string name="benauwd1">Verify that the airway is free, so the patient can breathe.</string>
+    <string name="benauwd">
+<![CDATA[By choking there is something in the airway, what has to be removed.
+     \n\nTell the patient what you are going to do.
+     \n\n   ►Stay behind the patient.
+     \n   ►Push his head slightly forward.
+      \n   ►See figure above.
+     \n   ►Hit 5 times with your hand palm vigorously between his shoulder blades.
+     \n\n   ►If this fails, knock again 5 times little more powerful.
+     \nRepeat this if necessary 2 times.
+     \n\nIf above fails, try the following.
+     \n\n   ►Stay behind the victim,
+     \n   ►Place your right fist under his diaphragm.
+     \n   ►Put your left hand on your right fist.
+     \n   ►Brace yourself.
+     \n   ►Powerful pull your fist back.
+     \n   ►See figure below.
+     \n   ►Tell the patient what you are going to do.]]>
+    </string>
+    <string name="benauwd_baby">
+<![CDATA[By a small child or baby.
+    \n\n  ►Keep the head downwards.
+    \n   ►Do not hit hard!!
+    \n   ►See figure..]]>
+    </string>
+    <string name="airway">
+<![CDATA[By an unconscious patient, check the airway. Make sure the victim can breath.
+    \n\n Open the mouth and remove possible: blood, mucus, vomit..
+     \n\n Below are 2 ways to open the mouth]]>
+    </string>
+    <string name="mond">check or the tongue is not swallowed</string>
+    <string name="title_activity_breating">Breating</string>
+
+    <!-- Breating bewustloos -->
+    <string name="klv">
+<![CDATA[Turn an unconscious patient on his back.
+    \n\nLook, Listen, Feel:
+    \n   ►Look or his chest rises.
+    \n   ►Listen for exhale.
+    \n   ►Feel (with your face) for exhale.]]>
+    </string>
+    <string name="uitleg_teller">
+<![CDATA[►Press button below: "To count 15 seconds long the breathing".
+\n\n►A countdown progressbar will help you measure the time. ]]>
+    </string>
+    <string name="knop10sec">Start 15 seconds</string>
+    <string name="knop30sec">Start 30 seconds</string>
+    <string name="title_activity_breating_bij_bewustzijn">Breating_bij_bewustzijn</string>
+    <string name="secondenTeGaan">seconds to go: </string>
+    <string name="knop_Bevestig_aantal_ademhalingen">confirm number of breaths</string>
+    <string name="uitleg_Invoer">Enter the number of breath you counted. </string>
+    <string name="hint_invoer">enter:</string>
+    <string name="aantal_ademhalingen">Number of breaths per minute: </string>
+    <string name="leeftijd_ademhaling">
+<![CDATA[
+    ►Newborn and Infant: 30-60 breaths per minute
+    \n►Toddler (1-2 years): 24-40 breaths per minute
+    \n►Preschooler (3-5 years): 22-34 breaths per minute
+    \n►School-age child (6-12 years): 18-30 breaths per minute
+    \n►Adolescent (13-17 years): 12-16 breaths per minute
+    \n►Adult: 12-18 breaths per minute
+     ]]>
+    </string>
+    <string name="AantalAdemhalingenGeteltDialogTitel">Enter the number of breaths you counted between the bleeps.</string>
+    <string name="aantalPerMinuut"><![CDATA[The respiratory rate is %d per minute.\n\n]]></string>
+    <string name="baby">Newborn and Infant</string>
+    <string name="peuter">Toddler(1-2 years)</string>
+    <string name="kleuter">Preschooler (3-5 years)</string>
+    <string name="kind">School-age child (6-12 years)</string>
+    <string name="puber">Adolescent (13-17 years)</string>
+    <string name="volwassen">Adult </string>
+    <string name="knop_leeftijd_bevestig">confirm age</string>
+
+    <!-- dialog met radiobuttons om de leeftijd te bepalen. -->
+    <string name="Kies_Leeftijd">Select the age of victim</string>
+
+    <!-- keuzen gebaseerd op leeftijd en het aantal ademhalingen. -->
+    <string name="baby_gezond"><![CDATA[By a Baby: a  normal respiratory rate is between 30 and 60.]]></string>
+    <string name="peuter_gezond"><![CDATA[By a Toddler: a normal respiratory rate is between 24 and 40.]]></string>
+    <string name="kleuter_gezond"><![CDATA[By a Preschooler: a normal respiratory rate is between 22 and 34.]]></string>
+    <string name="kind_gezond"><![CDATA[By a Child: a normal respiratory rate is between 18 and 30.]]></string>
+    <string name="puber_gezond"><![CDATA[By an Adolescent: a normal respiratory rate is between 12 and 16.]]></string>
+    <string name="volwassen_gezond"><![CDATA[By an Adult: a normal respiratory rate is between 12 and 18.]]></string>
+    <string name="knopHartslag">Pulse rate</string>
+    <string name="advies_zwak"><![CDATA[\n\n%d indicates a weak respiratory rate. Advice is to determine the pulse rate. \n\nOr count again.]]></string>
+    <string name="knopReanimatie">CPR</string>
+    <string name="advies_cpr"><![CDATA[\n\n%d indicates cardiac arrest. Advice is to start CPR.\n\nOr count again.]]></string>
+    <string name="knopVolgende">Next</string>
+    <string name="advies_gezond"><![CDATA[\n\n%d indicates an healty rate. Advice is to press Next. \n\nOr count again.]]></string>
+    <string name="advies_hoog">
+<![CDATA[\n\n%d indicates a very high respiratory rate. It is very unlikely than an unconscious person breath this fast.
+    Advice is to count again. \n\n If the victim became unconscious because of breathing to fast(Hyperventilation). Than it is likely that the victim will recover soon.
+    In this case the advice is press Next.]]>
+    </string>
+    <string name="baby_hoog"><![CDATA[By a Baby: a respiratory rate higher than 60 could indicate hyperventilation]]></string>
+    <string name="peuter_hoog"><![CDATA[By a Toddler: a respiratory rate higher than 42 could indicate hyperventilation]]></string>
+    <string name="kleuter_hoog"><![CDATA[By a Preschooler: a respiratory rate higher than 36 could indicate hyperventilation]]></string>
+    <string name="kind_hoog"><![CDATA[By a Child: a respiratory rate higher than 30 could indicate hyperventilation]]></string>
+    <string name="puber_hoog"><![CDATA[By an Adolescent: a respiratory rate higher than 24 could indicate hyperventilation]]></string>
+    <string name="volwassen_hoog"><![CDATA[By an Adult: a respiratory rate higher than 24 could indicate hyperventilation]]></string>
+
+    <!-- laatste dialoog, opnieuw of advies volgen. -->
+    <string name="knopOpnieuw">Again 30 seconds</string>
+    <string name="knopAdvies">Advice</string>
+    <string name="knopBevestig">Confirm</string>
+    <string name="uitlegDialog"><![CDATA[\n\n Press the advice button or count again for 30 seconds.]]></string>
+
+    <!-- Reanimatie -->
+    <string name="knopRead_en_Beadem">Start CPR + Rescue Breathing loop</string>
+    <string name="knopGeluidAan">Start CPR flow</string>
+    <string name="knopGeluidUit">Stop CPR flow</string>
+    <string name="knopMeetHartslag">Measure heartrate</string>
+    <string name="tekstKnopRead_enBeadem">\nButton for 3 times a loop: of 30 cpr followed by 8 seconds time for 2 rescue breaths. </string>
+    <string name="tekstGeluidAan">\nButton to start or stop cpr rhythm. </string>
+    <string name="tekstnaarbreathing">\nButton to measure the breathing again.</string>
+    <string name="positioneerReanimatie">
+<![CDATA[►Read the  instructions below careful before doing anything\n\n
+                                                  ►If possible, bare torso.\n
+                                                  ►Get on your knees beside the victim.]]>
+    </string>
+    <string name="handenReanimatie">
+<![CDATA[►Cross fingers together (see picture).\n
+                                                  ►Place hands on the middle of the chest, above the diaphragm.
+                                                  ]]>
+    </string>
+    <string name="uitvoerReanimatie">
+<![CDATA[»Press the button: "Start CPR + Rescue Breathing loop".\n
+                                                  ►Keep elbows straight, press victims chest down from your upper body.\n
+                                                  ►Press the chest down 6 cm or 2,5 inches.\n
+                                                  ►Press on the rhythm of the sound.]]>
+    </string>
+    <string name="uitleggeluidsbestandReanimatie">
+<![CDATA[►After 30 times CPR, the sound stops for 8 seconds. In those seconds give victim 2 rescue breaths\n\n
+                                                  ►Open the mouth, by lifting the chin.\n
+                                                  ►Squeeze with your other hand his nose.\n
+                                                  ►Mouth to mouth and exhale vigorously.\n
+                                                  ►2 rescue  breaths, after 8 seconds the rhythm start again.
+                                                  \n\nIf you find the loop too confusing. Press button: Start CPR flow.
+                                                   Than you hear an non-stop cpr rhythm loop, with a rate of 100 CPR / minute]]>
+    </string>
+    <string name="dialoogLoopReanimatie">CPR 30 times.</string>
+    <string name="dialoogLoopBeademen">2 Rescue breaths.</string>
+    <string name="dialoogReanimatieTitel">Inspect the breathing or continue cpr.</string>
+    <string name="herhaalReanimatie">continue CPR.</string>
+    <string name="controleerAdemhaling">Inspect the breathing.</string>
+    <string name="InvoerDialoogLeeg">Enter a number</string>
+    <string name="InvoerDialoogOngeldigeWaarden">Number is invalid. Choose a lower number.</string>
+
+    <!-- Hartslag -->
+    <string name="zoekHartslagKeel"><![CDATA[The best place to find the pulse rate is on the throat. See pictures below ]]></string>
+    <string name="zoekHartslagPols"><![CDATA[Or take the pulse. See pictures below ]]></string>
+    <string name="UitlegHartslagTeller"><![CDATA[►Press the button below to measure 15 seconds long the heart rate. ►Count the rate between the bleeps.  ]]></string>
+    <string name="knopHartslagTeller">Start 15 seconds</string>
+    <string name="hoeveelHartslagen">►Enter how many heart beats you counted between the bleeps</string>
+    <string name="adviesZoekHetUitVolwassen">Continue.</string>
+    <string name="zoekHetZelfUitVolwassen">
+<![CDATA[From a age of 10 years and above: A save heart rhythm is between 60 and 100 per minute.\n\n
+    you measured a pulse rate of %d a minute.\n\n
+    There is a weak respiration, and victim is unconscious. \n\n If the heart rhythm is low and irregular or chaotic, ►START CPR. \n\n
+    If the heart rate has a normal value. Press: ►Continue.
+    \n\n or measure again.]]>
+    </string>
+    <string name="advies_reanimeren_Volwassen">With the weak respiration and a heart rate of %d per minute, the advice is: ►CPR</string>
+
+    <!-- Hartslag baby -->
+    <string name="zoekHartslag_baby">
+<![CDATA[By a baby or a small child: \n►tilt the elbow sideways.
+    \n►Feel with two fingers on the inside of the upper arm, see pictures.]]>
+    </string>
+    <string name="andere_manier_hartslag">
+<![CDATA[
+      ►feel with your fingers, not with your thumb.]]>
+    </string>
+    <string name="adviesCPRbabyHartslag">CPR</string>
+    <string name="adviesZoekHetUit">Continue.</string>
+    <string name="adviesOpniew">Again</string>
+    <string name="zoek_het_zelf_uit_baby">
+<![CDATA[You measured a pulse rate of %d per minute. \n\n
+   By a baby a save heart rhythm is between: beats per minute\n\n
+   » First month of life  70-190\n
+   » Between 1 and 11 months  80-160\n
+   » One- and two-year-olds  80-130\n
+   » Three- and four-year-olds  80-120\n
+   » Five- and six-year-olds 75-115\n
+   » Between seven and nine years 70-110\n
+   » From 10 years of age 60-100\n\n
+
+    There is a weak respiration, and victim is unconscious. \n\n If the heart rate in combination with the age of the baby is to low, start CPR. \n\n
+    If the heart rhythm is irregular or very chaotic, start CPR.\n\n
+    If the heart rate has a normal value. Press: continue.
+    \n\n or measure again.
+]]>
+    </string>
+    <string name="advies_reanimeren_baby">With the weak respiration and a heart rate of %d per minute, the advice is CPR</string>
+
+    <!-- Reanimatie baby -->
+
+    <string name="tekstKnopRead_enBeadem_baby">\nButton for 4 times a loop: of 15 CPR followed by 8 seconds time for 2 rescue breaths. </string>
+    <string name="positioneerReanimatie_baby">
+<![CDATA[►Start with giving 5 rescue breaths.
+                                                   Cover the mouth and nose with your mouth, blowing five rescue breaths.
+                                                   These should each last about one second, and the chest should rise with each one.
+                                                   Take a second to let the air come back out of the baby.\n\n]]></string>
+    <string name="instructie_baby">►►From here, read the instructions below careful before doing anything</string>
+    <string name="handenReanimatie_baby"><![CDATA[►If you are alone place your hands as on the photo above.\n\n
+    ►When you have a helper, one person does the CPR, he places his thumbs as on the photo below.]]></string>
+    <string name="uitvoerReanimatie_baby">
+<![CDATA[►Press the button: "Start CPR + Rescue Breathing loop".
+\n►Compress chest at least 1/3 the depth of the chest (about 4 cm or 1 ½ inches), 15 times just below the nipple line
+\n►Press on the rhythm of the sound.]]>
+    </string>
+    <string name="uitleggeluidsbestandReanimatie_baby">
+<![CDATA[►After 15 times CPR, the sound stops for 8 seconds. In those seconds give victim 2 rescue breaths
+\n\n►Open the mouth, by lifting the chin.
+\n►Cover the mouth and nose with your mouth, blowing 2 rescue breaths. These should each last about one second, and the chest should rise with each one.
+Take a second to let the air come back out of the baby.
+\n\n►2 rescue  breaths, after 8 seconds the rhythm start again.
+\n\n►If you find the loop too confusing or if you have a helper. Press button: Start CPR flow. Than you hear an non-stop cpr rhythm loop, with a rate of 100 CPR / minute. Count out loud to 15.]]>
+    </string>
+    <string name="dialoogLoopReanimatie_baby">CPR 15 times.</string>
+    <string name="dialoogLoopBeademen_baby">2 Rescue breaths.</string>
+    <string name="dialoogReanimatieTitel_baby">Inspect the breathing or continue cpr.</string>
+    <string name="herhaalReanimatie_baby">continue CPR.</string>
+    <string name="controleerAdemhaling_baby">Inspect the breathing.</string>
+
+    <!-- Breathing wakker -->
+    <string name="adem_bewust">
+<![CDATA[Now the airway is clean, we observe the breathing frequency..
+    \n\n   ►If the breathing is very fast, then it is likely that the patient is hyperventilating.
+    \nHyperventilation happened a lot in panic situations.]]>
+    </string>
+    <string name="Knophyperventilatie">Hyperventilation</string>
+    <string name="klaplong">
+<![CDATA[►Posture stuffiness on one side of the body(chest), can indicate a collapsed lung.
+    \n\nThe lung on the painful side is not working.
+    \n\nPlace the patient in a sitting position.
+    \n\n(e.g: Legs stretched on the floor, back against a wall.)]]>
+    </string>
+    <string name="verwonde_long">
+<![CDATA[Is the patient heavenly injured on his chest, then it may be that one lung leaks from the outside.
+    \n\n►Clean the wond and tape it on 3 sides off. Only do this if you know how to do this.]]>
+    </string>
+    <string name="long_raakt_bewustloos">
+<![CDATA[If patients becomes unconscious, put him in the recovery position with the injured side on the ground.
+    \nSo the healthy lung is not impede ]]>
+    </string>
+    <string name="stabiele_zijligging">Recovery position</string>
+    <string name="title_activity_circulatie">Circulatie</string>
+    <string name="title_activity_hyperventilatie">Hyperventilatie</string>
+    <string name="title_activity_stabiele_zijligging">Stabiele zijligging</string>
+
+    <!-- Circulatie -->
+    <string name="uitwendige_bloeding">
+<![CDATA[Scan the body for bleedings,
+Onderzoek het lichaam op bloedingen, following four causes can be deadly.
+  \n\n►►Arterial bleeding.
+    \n►►Internal bleeding.
+    \n►►Burns.
+    \n►►Snakebite.
+
+    \n\nArterial bleeding.
+    \n►If you see a heavy pulsating bleeding. Press button: ►Heavy bleeding.
+    \nSmall bleeding are not life threatening.]]>
+    </string>
+    <string name="interne_bloeding">
+<![CDATA[Internal bleeding:
+    \n\nTo check the patient on internal bleeding press hard on a fingernail, the nail will color white.
+    \n►Look or the nail colors back to normal within 3 seconds. If patient has very cold hands press hard on the forehead.
+    \n►Does the nail or forehead not coloring back within 3 seconds than it is likely that patient is in shock.
+    \n►Blood does not return, because of heavy internal bleeding. Patient is in danger.
+    \n Be aware.. Even patients who are awake and talking, can bleed inside to death.
+    ]]>
+    </string>
+    <string name="interne_bloeding_actie">
+<![CDATA[►Lay patient in shock posture, with legs up.
+    \n►So that blood can flow from the legs to the chest and brains.
+    \n►Keep checking breathing until the ambulance takes over.
+    \nTell the medic: NO CAPILLARY REFILL]]>
+    </string>
+    <string name="knopBloed">Heavy bleeding</string>
+    <string name="knopSlang">Snake bite</string>
+    <string name="naarSlangen">Is the victim  bitten by a snake? Press snakebite</string>
+    <string name="tvbrandwonden">If you see burns or the clothing of the victim is burned. ►Press button Burns</string>
+    <!-- Hyperventilatie -->
+    <string name="hyperventilatie">
+<![CDATA[Is the respiratory rate faster than 1 breath in every 2 seconds, then it is likely that the victim is hyperventilating.
+    \n\nThe body exhales more CO2 out, than it produces.
+    \nA body need C02 to control the breathing.
+    \n\n►Tell the victim to hold his breath for a few seconds. Help him by  counting very slowly to 10. And let the victim breath out on every count.
+    \n\n►If this fails. Let the victim keep a hand before his mouth. So the victim will inhale the same air as he has just exhaled.
+    Now the CO2 level in his body will rise again.
+    \n\n►If possible, make from your own hands a bowl shape, ad hold that on his mouth.
+    \n\n►If the victim lost his consciousness, lay him flat on the ground. Optionally with his legs a little off the ground.
+    \n►Keep checking his breathing. Likely the respiratory rate will return to normal, and the victim will recover.
+    \n\n►If the victim stops with breathing or the situation deteriorated: press button below.]]>
+    </string>
+    <string name="knopVerslechtering">If the situation deteriorated:</string>
+
+    <!-- <string name=""><![CDATA[]]></string> -->
+    <!-- Disability -->
+    <string name="disability">
+<![CDATA[Try to determine the level of consciousness.
+    \n\nThere are 4 levels:
+    \n►Alert: Victim is awake, and gives clear answers on questions.
+    \n►Verbal: Victim is awake, but makes a confused impression.
+    \n►Pain: Victim is unconscious but responds to a pain stimulus. (only give pain stimulus if you know how to do this).
+    \n►Unresponsive: Victim is unconscious, but does not respond to a pain stimulus.
+    \n\nIf victim is Alert tell him:"That help is on the way.."
+    \n\nIf victim is Verbal: Keep talking to him, try to get his attention.]]>
+    </string>
+    <string name="stabiele_zijlegging_d"><![CDATA[If victim is unconscious and there is no sign of neck injuries. Lay the victim in the recovery position.]]></string>
+    <string name="title_activity_disability">Disability</string>
+    <string name="knopStabieleZijligging">Recovery position</string>
+    <string name="title_activity_exposure">Exposure</string>
+    <string name="title_activity_hevige_bloeding">Hevige_bloeding</string>
+    <!-- Exposure -->
+    <string name="Exposure">
+<![CDATA[Make sure the victim is not suffering form external elements like sun, wind, heat, cold, rain. Make his situation more comfortable.
+    \n\nIf you ask the victims questions this acronym AMPLE can be useful. You can collect information for the medic.
+    \n\n►Allergy:
+    \n    »Are you allergic to something?
+    \n\n►Medication:
+    \n    »Are you currently taking any sort of medication?
+    \n    »Are you under any medication?
+    \n\n►Past Illness/History:
+    \n    »Are you sick? or
+    \n    »Have you been sick recently?
+    \n\n►Last Meal
+    \n    »What have you eaten today?
+    \n    »Any alcohol, or drugs?
+    \n\n►Events/Environment:
+    \n    »What happened before the accident?
+    \n    »What was the victim doing before he become unwell?
+    \n\nThis information can be very helpful for the ambulance.
+    \n\nRepeat ABCD until the ambulance arrive.
+    ]]>
+    </string>
+    <string name="repeat_ABCD">Repeat ABCD</string>
+    <string name="tekst_menu">for more information, or quick links press Menu.</string>
+    <string name="menu">Menu</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_teller">Teller</string>
+    <string name="knopStartTellen">Start</string>
+    <string name="startTellerTekst">Press start button If you are ready to count...</string>
+    <string name="tellerTekst">Number of breaths: </string>
+    <string name="title_activity_dialog_aantal_adem">Dialog_aantal_adem</string>
+    <string name="title_activity_reanimatie">Reanimatie</string>
+    <string name="title_activity_reanimatie_baby">Reanimatie_baby</string>
+    <string name="title_activity_hartslag">Hartslag</string>
+    <string name="terugKnop">Back button is disabled</string>
+    <string name="title_activity_hartslag_baby">Hartslag_baby</string>
+    <string name="title_activity_slagader">Slagader</string>
+    <string name="title_activity_slagaderfoto">Slagaderfoto</string>
+
+    <!-- onderkant menu -->
+    <string name="waarBenIk">Where am I?</string>
+    <string name="menu1">Links.</string>
+    <string name="afsluiten">Close app.</string>
+    <string name="bell112">Call emergency services.</string>
+
+    <!-- Menu activity -->
+    <string-array name="menu1_array">
+        <item>Repeat ABCD</item>
+        <item>Choking</item>
+        <item>Hyperventilation</item>
+        <item>CPR </item>
+        <item>CPR baby up to 3 years</item>
+        <item>Artery bleeding</item>
+        <item>Burns</item>
+        <item>SnakeBite</item>
+        <item>Recovery Position</item>
+        <item>Where am I</item>
+        <item>Disclaimer</item>
+        <item>Contact</item>
+        <item>Close Application</item>
+        <item>Start again</item>
+    </string-array>
+
+    <!-- Contact -->
+    <string name="tvContact"> To translate this application in your language, or for improvements or changes inside the application. Please contact us by email</string>
+    <string name="knopStuurEmail">Send e-mail</string>
+    <string name="hintEmail">your message...</string>
+    <string name="onderwerpEmail">subject</string>
+
+    <!-- disclamer -->
+    <string name="disclamer">
+<![CDATA[Please note that this application is a tool, a protocol.
+			Based on medical knowledge and experience.
+			\n\nEach situation is different...
+			\n\nThe author can not be held responsible for incorrect use of this application.
+			\n\nThe author assumes no legal responsibility for use of this application.
+			\n\nAlways use your common sense. Use the information as a tool, not as the ultimate truth.]]>
+    </string>
+
+    <!-- Snakebite -->
+    <string name="label_snake">Snake bite</string>
+    <string name="snake1">
+<![CDATA[►Stay calm, get safely away from the snake.
+    \n►The less the victim moves the bitten site, the less likely the venom will be spread through the body and cause damage.
+    \n►Have the victim lie down with the affected limb lower than the heart.
+    \n►Call the emergency service.
+    \n►Remove any rings, bracelets, boots, or other restricting items from the bitten extremity. (It WILL swell.)]]>
+    </string>
+    <string name="snake2">►Mark the bite. Encircle only, so the bite can be found back after a swelling</string>
+    <string name="snake3">
+<![CDATA[►Apply a light constricting band about 5 cm above and below the bite, however never place the bands on either side of a joint (such as above and below the knee or elbow).
+    \n►This band should be made up of wide, soft material, which could be a handkerchief or  a shredded t shirt.
+    \n►The band should only be as tight as the band the nurse applies when taking a blood test.
+    \n►The purpose of constricting bands is to restrict lymphatic flow, not blood, so they should not be too tight.
+    \n►Check pulses below the bands and readjust the bands as necessary when they tighten due to swelling.]]>
+    </string>
+    <string name="snake4">
+<![CDATA[►Treat for shock and preserve body heat.
+   \n ►If the snake is dead take it with you to the hospital.
+   \n ►If the victim has to walk out, sit calmly for 20-30 minutes to let the venom localize at the site, then proceed calmly to the nearest source of help.
+    \n►Try to avoid unnecessary exertion which will stimulate circulation of the venom.]]>
+    </string>
+    <string name="title_activity_brandwonden">Brandwonden</string>
+
+    <string name="brandwond"><![CDATA[]]> ►Cool the skin with water.
+       \n\n►Cool in and around the wound, not the whole body.
+       \n\n►Cool with lukewarm water, not with ice.
+       \n\n►Do not remove any fixed burned clothing from the wound.
+       \n\n►Keep cooling until the ambulance takes over.
+       \n\n►Be aware of hypotermia. Cooling is only for the wound.
+       \n\n►By a burn as big as a coin, cool at least for 20 minutes.</string>
+    <string name="label_brandwond">Burns</string>
 
 </resources>

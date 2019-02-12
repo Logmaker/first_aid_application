@@ -1,39 +1,51 @@
 package com.aid.first.mb.firstaid;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 
-public class Personlijke_veiligheid extends Activity {
+public class Personlijke_veiligheid extends MoederClass {
+
+    TextView tekst;
+    ImageButton knop;
+    Intent intent,getintent;
+    String string;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personlijke_veiligheid);
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_personlijke_veiligheid, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        xmlInt();
+        getintent = getIntent();
+        if(getintent.getIntExtra("sluiten",0) == 1){
+            onBackPressed();
         }
+        //string = getResources().getString(R.string.eigen_veiligheid);
+        tekst.setText(getResources().getString(R.string.eigen_veiligheid));
+        intent = new Intent(this,AnderMans_Veiligheid.class );
 
-        return super.onOptionsItemSelected(item);
+
     }
+
+
+
+    public void xmlInt(){
+        //TextView tekst;
+        tekst = (TextView)findViewById(R.id.text);
+        knop =(ImageButton)findViewById(R.id.knop_pijl_rechts);
+
+    }
+    public void knopVolgende(View v){
+        Volgende(intent);
+
+    }
+
+
 }

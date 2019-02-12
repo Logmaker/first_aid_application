@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B7CEEC"
+    android:keepScreenOn="true"
+ >
+
+    <LinearLayout
+        style="@style/LinearLayout_format">
+
+        <TextView
+            android:textColor="#808"
+            android:id="@+id/tvHyperventilatieText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hyperventilatie"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        <Button
+            android:id="@+id/btHyperVentilatieNaarBewustloosBreating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/knopVerslechtering"
+            android:onClick="knopBreating"
+            style="@style/CustomStyleButton"/>
+
+
+        <ImageButton
+            style="@style/knop_rechts"
+            android:src="@drawable/pijl_rechts"
+            android:onClick="knopVolgende"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
